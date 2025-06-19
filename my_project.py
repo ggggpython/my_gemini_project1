@@ -20,3 +20,5 @@ while True:
         break
     response = model.generate_content(user_input)
     print("Gemini:", response.text)
+
+print('Hello world')
